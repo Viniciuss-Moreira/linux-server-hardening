@@ -1,0 +1,24 @@
+[DEFAULT]
+bantime = 3600
+findtime = 600
+maxretry = 3
+destemail = admin@example.com
+sender = fail2ban@example.com
+mta = sendmail
+action = %(action_mwl)s
+
+[sshd]
+enabled = true
+port = ssh
+filter = sshd
+logpath = /var/log/auth.log
+maxretry = 3
+
+[http-get-dos]
+enabled = true
+port = http,https
+filter = apache-get-dos
+logpath = /var/log/apache*/*access.log
+maxretry = 300
+findtime = 300
+bantime = 600

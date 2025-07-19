@@ -1,0 +1,11 @@
+Port 22
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+ChallengeResponseAuthentication no
+UsePAM yes
+X11Forwarding no
+PrintMotd no
+Banner /etc/ssh/banner
+ClientAliveInterval 300
+ClientAliveCountMax 2
