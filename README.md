@@ -490,7 +490,7 @@ Este projeto está licenciado sob Apache 2.0 License. Ver [LICENSE](LICENSE) par
 
 ## 👨‍💻 Autor
 
-**Seu Nome**
+**Vinicius Moreira**
 - GitHub: [@Viniciuss-Moreira](https://github.com/Viniciuss-Moreira)
 - LinkedIn: [Vinicius Moreira](https://linkedin.com/in/viniciusmoreira-)
 - Email: vinnismoreira@gmail.com
